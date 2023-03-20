@@ -1,0 +1,450 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main {
+    padding-top: 3rem;
+    border-top: 1px solid rgb(177, 170, 170);
+}
+
+.firstbox {
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.firstbox .info {
+    width: 60rem;
+}
+
+.img img {
+    width: 22rem;
+    margin-right: 5rem;
+}
+
+.rankings {
+    margin: 3rem 0;
+}
+
+.rankings .stars {
+    display: flex;
+}
+
+.rankings .stars .star img {
+    width: 2rem;
+    margin-left: 5px;
+}
+
+.rankings p {
+    font-size: 1rem;
+    color: grey;
+}
+
+.message-button {
+    background-color: transparent;
+    color: rgb(53, 45, 45);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.message-button:hover {
+    background-color: #e9eaea;
+    color: rgb(38, 152, 238);
+}
+
+.mrmainmsg {
+    margin-right: 0.7rem;
+}
+
+.mrmainmsg span {
+    color: black;
+}
+
+.message-button .i {
+    margin-right: 5px;
+}
+
+.message-button:hover span {
+    color: rgb(38, 152, 238) !important;
+}
+
+.mrbuttons {
+    display: flex;
+}
+
+.firstbox .name h1 {
+    font-size: 2.3rem;
+}
+
+.firstbox .name h1 span {
+    font-size: 1rem;
+    color: grey;
+}
+
+.firstbox .name h1 span span {
+    font-size: 1.5rem;
+    color: rgb(227, 26, 26);
+}
+
+.firstbox .name p {
+    font-size: 1.3rem;
+    color: rgb(38, 152, 238);
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+.secondbox {
+    display: flex;
+    padding: 0 5%;
+    margin: 5% 0;
+}
+
+.skills {
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.skills .heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skills .work .heading hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.skills .work .heading h1 {
+    font-size: 1rem;
+    color: grey;
+}
+
+.mrbtnheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mrbtnheading h3 {
+    font-size: 1.8rem;
+}
+
+.mrbtnheading .message-button {
+    background-color: #e9eaea;
+    font-size: 1rem;
+}
+
+.skills .work {
+    margin-bottom: 2rem;
+}
+
+.skills .work .paras p {
+    font-size: 1rem;
+    color: grey;
+    margin: 0;
+}
+
+.work .mrh5 h5 {
+    font-size: 1.3rem;
+}
+
+.work .mrh5 {
+    padding: 1rem 0;
+}
+
+.secondbox .about {
+    width: 60rem;
+}
+
+.about .aboutbtn {
+    display: flex;
+    border-bottom: 1px solid rgb(177, 170, 170);
+}
+
+.about .aboutbtn button {
+    background-color: transparent;
+    color: rgb(53, 45, 45);
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 3%;
+}
+
+.about .aboutbtn button span {
+    margin-right: 10px;
+}
+
+.about .aboutbtn button:hover {
+    border-bottom: 3px solid rgb(38, 152, 238);
+    color: rgb(38, 152, 238);
+}
+
+.about .aboutbtn button:hover span {
+    color: rgb(38, 152, 238) !important;
+}
+
+.contactInfo {
+    margin-top: 4rem;
+}
+
+.contactInfo h3 {
+    font-size: 1rem;
+    margin: 2rem 0;
+    color: grey;
+}
+
+.ciInfo {
+    display: flex;
+    margin-bottom: 1.3rem;
+}
+
+.ciInfo h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.ciInfo span {
+    color: rgb(38, 152, 238);
+}
+
+#setciwid {
+    width: 8rem;
+    margin-right: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .main {
+        padding-top: 2rem;
+    }
+
+    .firstbox {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .firstbox .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .firstbox .img {
+        margin-bottom: 2rem;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .firstbox .img img {
+        width: 20rem;
+        margin-right: 0 !important;
+        border-radius: 1rem;
+    }
+
+    .firstbox .name h1 span {
+        display: block;
+    }
+
+    .firstbox .name {
+        text-align: center;
+    }
+
+    .firstbox .rankings {
+        text-align: center;
+        margin: 0rem 0 !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .mrbuttons {
+        display: none;
+    }
+
+
+
+
+
+
+    .secondbox {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .skills {
+        width: 100vw !important;
+        box-sizing: border-box;
+        padding: 0 5%;
+    }
+
+    .work .mrh5 {
+        text-align: center;
+    }
+
+    .secondbox .about {
+        width: 100vw;
+    }
+
+    .about .aboutbtn{
+        justify-content: center;
+    }
+
+    .ciInfo h1{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .firstbox {
+        align-items: start;
+    }
+
+    .mrbuttons .message-button {
+        padding: 5px 10px;
+        font-size: 9rem;
+        font-weight: 600;
+    }
+
+    .mrmainmsg {
+        margin: 0;
+    }
+
+    .img img {
+        margin-right: 2rem !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:990px) {
+    .mrbuttons .message-button {
+        padding: 5px 10px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .mrmainmsg {
+        margin: 0;
+    }
+
+    .firstbox .img img {
+        width: 17rem;
+    }
+
+    .firstbox .info h1 {
+        font-size: 1.7rem;
+    }
+
+    .firstbox .info p {
+        font-size: 1.3rem;
+    }
+
+    .rankings {
+        margin: 2rem 0;
+    }
+
+    .firstbox .rankings p {
+        font-size: 1.1rem;
+    }
+
+    .firstbox .rankings .stars .star img {
+        width: 1.5rem;
+    }
+
+    .mrbuttons {
+        font-size: 1rem;
+    }
+
+
+    .secondbox {
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .skills {
+        width: 17rem;
+    }
+
+    .mrbtnheading H3 {
+        font-size: 1.3rem;
+    }
+
+    .work .mrh5 h5 {
+        font-size: 1.2rem;
+    }
+
+    .ciInfo{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgb(190, 185, 185);
+    }
+    .ciInfo h1{
+        font-size: 1.2rem;
+    }
+    #setciwid{
+        margin: 0;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    .contactInfo{
+        margin-top: 1rem;
+    }
+    .contactInfo h3{
+        text-align: center;
+    }
+}
